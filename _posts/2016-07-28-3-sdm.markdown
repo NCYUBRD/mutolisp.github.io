@@ -1,12 +1,10 @@
 ---
 layout: default
 img: Fagus_hayatae_records.png
-category: Research
-title: 生態棲位模型
+category: Course
+title: 特色課程
 description: |
 ---
-物種的分布在生態學的研究上一直都是探討的熱點。近十年來技術的發展，
-使得我們能透過生態學中生態棲位的理論，結合 GIS 工具以及機器學習法，
-來預測特定物種潛在的分布範圍，除了探討理論上物種分布會受到哪些環境因子的影響外，
-我們也試著針對分布侷限、易受到氣候變遷影響的物種預測其潛在分布，
-並試著在保育及經營管理上應用。
+Lorem ipsum dolor sit amet, quo ut ferri adhuc quidam, eum ad maiorum albucius constituto. Eu ullum zril perfecto sea, quo soleat doming epicuri ad. Harum volumus at ius, molestiae cotidieque eum in. Cu modo dolorum expetenda qui, nec id molestie definitionem. Ei clita eleifend molestiae his, electram forensibus sea ne.
+
+Ad vim sint omnis, ius ei nonumy postea, nusquam maluisset instructior ei his. Nostrum abhorreant qui no, te est aeque iisque malorum, sit hendrerit deseruisse conclusionemque ea. Eu nam velit invidunt. Quo ut ceteros consetetur, quo at epicuri sadipscing, dicta mazim essent no est. Electram assentior no quo, vel ei commune noluisse.

@@ -2,7 +2,9 @@
 layout: default
 img: Jun_for.jpg
 category: Research
-title: 研究室特點
+title: 大學生活
 description: |
 ---
-除了室內的課程之外，我們重視野外的實作，因為透過身體勞動才能更深切的體會自然帶給我們的禮物。另外我們研究室也使用現在新的資料分析方法，例如 R 語言應用在統計分析上，使用 R 產出美麗的圖，或是應用其他程式語言例如Python 語言來分析資料、開發函式、計算大量資料等。最重要的是，我們是自由軟體及開放源碼、開放資料的愛好者，我們認為一個人在成長之中受惠於社會的許多幫助，因此在有限的時間與能力內，我們希望能使用自由軟體外也能學習其精神，貢獻自己的能力於社群。
+Lorem ipsum dolor sit amet, quo ut ferri adhuc quidam, eum ad maiorum albucius constituto. Eu ullum zril perfecto sea, quo soleat doming epicuri ad. Harum volumus at ius, molestiae cotidieque eum in. Cu modo dolorum expetenda qui, nec id molestie definitionem. Ei clita eleifend molestiae his, electram forensibus sea ne.
+
+Ad vim sint omnis, ius ei nonumy postea, nusquam maluisset instructior ei his. Nostrum abhorreant qui no, te est aeque iisque malorum, sit hendrerit deseruisse conclusionemque ea. Eu nam velit invidunt. Quo ut ceteros consetetur, quo at epicuri sadipscing, dicta mazim essent no est. Electram assentior no quo, vel ei commune noluisse.
