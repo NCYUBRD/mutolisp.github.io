@@ -6,8 +6,23 @@ title: 課程規劃
 description: |
 ---
 <section id="courses">
-Lorem ipsum dolor sit amet, quo ut ferri adhuc quidam, eum ad maiorum albucius constituto. Eu ullum zril perfecto sea, quo soleat doming epicuri ad. Harum volumus at ius, molestiae cotidieque eum in. Cu modo dolorum expetenda qui, nec id molestie definitionem. Ei clita eleifend molestiae his, electram forensibus sea ne.
+生資系要修哪些課程呢？依照學則規定，我們必須要修滿 128 學分才能畢業，包含：
 
-Ad vim sint omnis, ius ei nonumy postea, nusquam maluisset instructior ei his. Nostrum abhorreant qui no, te est aeque iisque malorum, sit hendrerit deseruisse conclusionemque ea. Eu nam velit invidunt. Quo ut ceteros consetetur, quo at epicuri sadipscing, dicta mazim essent no est. Electram assentior no quo, vel ei commune noluisse.
+<ol>
+<li> 通識教育課程(包含英文、國文、體育、核心課程、通識課程等 30 學分)</li>
+<li> 專業必修課程(49學分)</li>
+    <ul>
+        <li> 生命科學院共同課程(12學分)</li>
+        <li> 生物資源學系基礎課程(19學分)</li>
+        <li> 生物資源學系核心課程(18學分)</li>
+    </ul>
+
+<li> 主修領域課程(49學分)</li>
+    <ul>
+       <li>學分學程：生物多樣性學程、生物資源經營管理學程、環境教育與生態產業學程</li>
+       <li>須修讀本系課程 34 學分以上，且至少擇2學程修畢</li>
+       <li>自由選修(本系或外系課程皆可):15學分</li>
+    </ul>
+
+</ol>
 </section>
-
