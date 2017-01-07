@@ -1,6 +1,6 @@
 ---
 layout: default
-img: sigi.jpg
+img: hsu_wallace.png
 category: Research
 title: 研究方向
 description: |

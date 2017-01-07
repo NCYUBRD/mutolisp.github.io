@@ -1,6 +1,7 @@
 ---
 layout: default
-img: Jun_for.jpg
+img: brd_week.png
+imgdescription: 2016生資週活動
 category: Research
 title: 大學生活
 description: |

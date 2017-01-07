@@ -1,6 +1,6 @@
 ---
 layout: default
-img: DCA_4env.png
+img: course_cloud.jpg
 category: Research
 title: 課程規劃
 description: |
