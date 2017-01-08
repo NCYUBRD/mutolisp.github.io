@@ -1,8 +1,0 @@
---- 
-layout: default 
-img: LRITC.jpg 
-category: Testimonial 
-title: 修課攻略
-description: | 
---- 
-

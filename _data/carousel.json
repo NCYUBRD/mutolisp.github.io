@@ -1,0 +1,65 @@
+[
+  {
+      "title": "生物資源的領航者",
+      "caption": "本系為臺灣第一所以生物資源為名的系所，
+      研究主題關注生態、保育、生物多樣性、生物資源利用及環境教育等領域。
+      教學理念則是理論及實務並重。",
+      "imgurl": "intro-banner-1.jpg",
+      "url": "#about",
+      "urldesc": "深入了解"
+    },
+  {
+      "title": "生物多樣性",
+      "caption": "生物多樣性(Biodiversity)是近年來自然保育的熱門關注議題，
+        本系老師專長領域涵蓋小型哺乳類、兩生爬蟲類、鳥類、蝙蝠、蕨類、寄生關係、植物分類以及植群生態，
+        是臺灣的生態研究相關領域中多樣性屬一屬二的系所",
+      "imgurl": "intro-banner-2.jpg",
+      "url": "#",
+      "urldesc": "深入探究"
+    },
+  {
+      "title": "環境教育",
+      "caption": "我們相信，自然生態的保育建立在教育的基石上。
+        本系開設「環境教育學程」，也和在地社區、國小合作，
+        開發創意且多元的教案，為了臺灣社會的永續發展持續紮根。",
+      "imgurl": "intro-banner-3.jpg",
+      "url": "#",
+      "urldesc": "更多資訊"
+  },
+  {
+      "title": "吉祥物及生資週",
+      "caption": "每年校慶生資系的同學們利用回收物製作大型的昆蟲及動物，
+        俗稱生資系「吉祥物」。製作過程中除了專業的知識外，
+        也凝聚全系的向心力及展示本系的活力。",
+      "caption_note": "
+        2016年校慶，吉祥物為
+            <a href=\"http://taibif.tw/zh/namecode/348265\" target=\"_blank\">紹德春蜓</a>(<i>Leptogomphus sauteri formosanus</i>)，嘉義亞種)
+         ",
+      "imgurl": "intro-banner-4.jpg",
+      "url": "https://www.facebook.com/BRDweek/",
+      "urldesc": "更多生資週資訊"
+  },
+  {
+      "title": "特色課程：生態攝影",
+      "caption": "野外調查，總是會需要攝影記錄。本系開設的「生態攝影」，課程除了追求專業知識外，也冀望透過藝術的眼光來培養美感。",
+      "caption_note": "生資102級黃志銓攝，<a href=\"https://www.flickr.com/groups/ncyuecophoto/pool/\" target=\"_blank\">課程 flickr 群組網頁</a>",
+      "imgurl": "intro-banner-6.jpg",
+      "url": "https://web085003.adm.ncyu.edu.tw/pub_tagoutline.aspx?tagid=10513520174&WebPid1=",
+      "urldesc": "課程資訊"
+  },
+  {
+      "title": "特色講座：野望影展",
+      "caption": "本系每學期都會和臺灣野望自然傳播學社合作，搭配環境教育學程，
+        播放國內外相關的野生動植物生態紀錄片，並由系上老師導讀",
+      "imgurl": "wild_films.jpg",
+      "url": "http://www.wildviewtaiwan.org.tw/festival",
+      "urldesc": "更多資訊"
+  },
+  {
+      "title": "大師專題演講",
+      "caption": "本系每學期都會邀請專家學者、業師來演講以增進同學的視野，內容豐富多元，
+        例如翁國精教授：「水鹿肚子裡頭的寄生蟲如何改變森林結構？」、
+        徐嘉君博士：「探索樹冠層的生態多樣性」、嚴宏洋教授：「魚類感覺神經生理研究以及在養殖上的應用」等。",
+      "imgurl": "intro-banner-7.png"
+  }
+]
