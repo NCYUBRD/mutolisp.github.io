@@ -8,6 +8,8 @@ body {
 }
 
 
+
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
@@ -50,7 +52,8 @@ body {
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
-  background-color: #777;
+  /*background-color: #777;*/
+  background-color: #000;
 }
 .carousel-inner > .item > img {
   position: absolute;
@@ -58,6 +61,16 @@ body {
   left: 0;
   min-width: 100%;
   height: 500px;
+}
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 
