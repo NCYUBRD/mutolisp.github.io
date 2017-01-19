@@ -7,22 +7,24 @@ body {
   color: #5a5a5a;
 }
 
+img {
+  position: relative;
+  width: 100%;
+}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
-.navbar {
+.navbar-fixed-top {
  position: absolute;
- top: 100;
- left: 250;
+ top: 100px;
+ left: 250px;
 }
 
 .navbar-wrapper {
   position: absolute;
-  top: 100;
   right: 0;
-  left: 250;
   z-index: 20;
 }
 
@@ -46,6 +48,8 @@ body {
 /* Carousel base class */
 .carousel {
   height: 500px;
+  top: 100px;
+  left: 250px;
   margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -56,14 +60,32 @@ body {
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
+  left: 0px;
+  width: auto;
   background-color: #777;
 }
-.carousel-inner > .item > img {
+.active {
+  width: auto;
+}
+.carousel-indicators {
+  left: 40%;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+ {
   position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
+  width: 100%;
+  top: 50px;
+  left: 0px;
   height: 500px;
+}
+.carousel-control .right{
+  right: 30px;  //or you can increase this
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+  left: 30px; //or you can increase this
 }
 
 
@@ -102,7 +124,7 @@ body {
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   /* Navbar positioning foo */
   .navbar-wrapper {
     margin-top: 20px;
@@ -133,7 +155,7 @@ body {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 500px) {
   .featurette-heading {
     margin-top: 120px;
   }
