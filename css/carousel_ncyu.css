@@ -12,6 +12,12 @@ body {
 -------------------------------------------------- */
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar {
+ position: absolute;
+ top: 100;
+ left: 250;
+}
+
 .navbar-wrapper {
   position: absolute;
   top: 100;
