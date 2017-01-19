@@ -3,6 +3,7 @@ layout: default
 img: course_cloud.jpg
 category: Research
 title: 課程規劃
+tag: course
 description: |
 ---
 <section id="courses">

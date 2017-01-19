@@ -18,6 +18,7 @@ credits: 'Credits: original jekyll theme was designed by <a href="https://github
 # Build settings
 markdown: kramdown
 permalink: pretty
+comments: true
 
 # ----------------------- #
 #   3rd Party Settings    #

@@ -1,20 +1,18 @@
 <section id="testimonial">
 <!-- Page Content -->
-{% for testimonial in site.testimonial reversed %}
-  {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+{% for post in site.categories.testimonial reversed %}
     <div class="content-section-a">
-
         <div class="container">
-
             <div class="row">
                 <div class="col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">{{ testimonial.title }}</h2>
-                    <div class="lead">{{ testimonial.content }}</div>
+                    <h2 class="section-heading">{{ post.title }}</h2>
+                    <div class="lead">{{ post.content }}</div>
+                    {{ post.output }}
                 </div>
                 <div class="col-sm-6">
-                  <img class="img-responsive img-circle" src="img/testimonial/{{ testimonial.img }}" alt=""><br/>
+                  <img class="img-responsive img-circle" src="img/post/{{ post.img }}" alt=""><br/>
                 </div>
             </div>
 
