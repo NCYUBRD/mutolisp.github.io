@@ -1,4 +1,5 @@
 [
+
   {
       "title": "生物資源的領航者",
       "caption": "本系為臺灣第一所以生物資源為名的系所，
@@ -6,6 +7,11 @@
       教學理念則是理論及實務並重。",
       "imgurl": "intro-banner-1.jpg"
     },
+  {
+      "title": "賀！生科院合唱比賽第二名！"
+      "caption": "在青澀的新鮮人歌喉中，凝聚彼此的向心力",
+      "imgurl": "chorus_comp2017.jpg",
+  },
   {
       "title": "生物多樣性",
       "caption": "生物多樣性(Biodiversity)是近年來自然保育的熱門關注議題，
