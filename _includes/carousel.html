@@ -17,10 +17,7 @@
      {% if forloop.first == true %}
      <div class="item active">
        {% if picture.video %}
-       <video width="620" height="420" controls>
-         <source src="{{ picture.video }}" type="video/mp4">
-         Your browser does not support the video tag.
-       </video>
+         <iframe width="620" height="420" frameborder="0" src="{{ picture.video }}" scrolling="no" allowfullscreen id="frame2" name="frame2"></iframe>
        {% else %}
        <img class="first-slide" src="img/{{ picture.imgurl }}" alt="{{ picture.title }}">
        {% endif %}
@@ -39,10 +36,7 @@
      {% else %}
      <div class="item">
        {% if picture.video %}
-       <video>
-         <source src="{{ picture.video }}" type="video/mp4">
-         Your browser does not support the video tag.
-       </video>
+         <iframe width="620" height="420" frameborder="0" src="{{ picture.video }}" scrolling="no" allowfullscreen id="frame2" name="frame2"></iframe>
        {% else %}
        <img class="second-slide" src="img/{{ picture.imgurl }}" alt="{{ picture.title }}">
        {% endif %}
