@@ -17,7 +17,7 @@
      {% if forloop.first == true %}
      <div class="item active">
        {% if picture.video %}
-         {% picture.video %}
+         {% youtube 2YbXgX5AD4A %}
        {% else %}
        <img class="first-slide" src="img/{{ picture.imgurl }}" alt="{{ picture.title }}">
        {% endif %}
@@ -36,7 +36,7 @@
      {% else %}
      <div class="item">
        {% if picture.video %}
-         {% picture.video %}
+         {% youtube 2YbXgX5AD4A %}
        {% else %}
        <img class="second-slide" src="img/{{ picture.imgurl }}" alt="{{ picture.title }}">
        {% endif %}
