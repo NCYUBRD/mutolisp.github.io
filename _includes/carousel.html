@@ -17,7 +17,9 @@
      {% if forloop.first == true %}
      <div class="item active">
        {% if picture.video %}
-         <iframe class="first-slide" width="560" height="315" src="https://www.youtube.com/embed/{{ picture.video }}" frameborder="0" allowfullscreen> </iframe>
+         <p align="center">
+         <iframe width="1024" height=768 style="background: #000000;" src="{{ picture.video }}" frameborder="0" allowfullscreen allowtransparency="true"> </iframe>
+         </p>
        {% else %}
        <img class="first-slide" src="img/{{ picture.imgurl }}" alt="{{ picture.title }}">
        {% endif %}
@@ -36,7 +38,9 @@
      {% else %}
      <div class="item">
        {% if picture.video %}
-         <iframe class="second-slide" width="560" height="315" src="https://www.youtube.com/embed/{{ picture.video }}" frameborder="0" allowfullscreen> </iframe>
+         <p align="center">
+         <iframe width="1024" height="768" style="background: #000000;" src="{{ picture.video }}" frameborder="0" allowfullscreen allowtransparency="true"> </iframe>
+         </p>
        {% else %}
        <img class="second-slide" src="img/{{ picture.imgurl }}" alt="{{ picture.title }}">
        {% endif %}
