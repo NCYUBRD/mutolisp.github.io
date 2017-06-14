@@ -16,7 +16,11 @@
      {% for picture in include.data %}
      {% if forloop.first == true %}
      <div class="item active">
+       {% if picture.video %}
+       <iframe width="620" height="420" frameborder="0" src="{{ picture.video }}" scrolling="no" allowfullscreen></iframe>
+       {% else %}
        <img class="first-slide" src="img/{{ picture.imgurl }}" alt="{{ picture.title }}">
+       {% endif %}
        <div class="container">
          <div class="carousel-caption">
            <h1>{{ picture.title }}</h1>
@@ -25,12 +29,17 @@
 					 {% if picture.urldesc %}
            <p><a class="btn btn-lg btn-primary" href="{{ picture.url }}" target="_blank" role="button">{{ picture.urldesc }}</a></p>
 					 {% endif %}
+
          </div>
        </div>
      </div>
      {% else %}
      <div class="item">
+       {% if picture.video %}
+       <iframe width="620" height="420" frameborder="0" src="{{ picture.video }}" scrolling="no" allowfullscreen></iframe>
+       {% else %}
        <img class="second-slide" src="img/{{ picture.imgurl }}" alt="{{ picture.title }}">
+       {% endif %}
        <div class="container">
          <div class="carousel-caption">
            <h1>{{ picture.title }}</h1>
