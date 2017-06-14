@@ -18,7 +18,7 @@
      <div class="item active">
        {% if picture.video %}
          <p align="center">
-         <iframe width="1024" height=768 style="background: #000000;" src="{{ picture.video }}" frameborder="0" allowfullscreen allowtransparency="true"> </iframe>
+           <iframe width="{{ picture.width }}" height="{{ picture.height }}" style="background: #000000;" src="{{ picture.video }}" frameborder="0" allowfullscreen allowtransparency="true"> </iframe>
          </p>
        {% else %}
        <img class="first-slide" src="img/{{ picture.imgurl }}" alt="{{ picture.title }}">
@@ -39,7 +39,7 @@
      <div class="item">
        {% if picture.video %}
          <p align="center">
-         <iframe width="1024" height="768" style="background: #000000;" src="{{ picture.video }}" frameborder="0" allowfullscreen allowtransparency="true"> </iframe>
+           <iframe width="{{ picture.width }}" height="{{ picture.height }}" style="background: #000000;" src="{{ picture.video }}" frameborder="0" allowfullscreen allowtransparency="true"> </iframe>
          </p>
        {% else %}
        <img class="second-slide" src="img/{{ picture.imgurl }}" alt="{{ picture.title }}">
