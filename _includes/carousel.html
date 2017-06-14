@@ -17,10 +17,14 @@
      {% if forloop.first == true %}
      <div class="item active">
        {% if picture.video %}
+<<<<<<< HEAD
        <video width="620" height="420" controls>
          <source src="{{ picture.video }}" type="video/mp4">
          Your browser does not support the video tag.
        </video>
+=======
+       <iframe class="first-slide" width="620" height="420" frameborder="0" src="{{ picture.video }}" scrolling="no" allowfullscreen></iframe>
+>>>>>>> 73463cdb31e44bb4190fdd282624923c5318a944
        {% else %}
        <img class="first-slide" src="img/{{ picture.imgurl }}" alt="{{ picture.title }}">
        {% endif %}
@@ -39,10 +43,14 @@
      {% else %}
      <div class="item">
        {% if picture.video %}
+<<<<<<< HEAD
        <video width="620" height="420" controls>
          <source src="{{ picture.video }}" type="video/mp4">
          Your browser does not support the video tag.
        </video>
+=======
+       <iframe class="second-slide" width="620" height="420" frameborder="0" src="{{ picture.video }}" scrolling="no" allowfullscreen></iframe>
+>>>>>>> 73463cdb31e44bb4190fdd282624923c5318a944
        {% else %}
        <img class="second-slide" src="img/{{ picture.imgurl }}" alt="{{ picture.title }}">
        {% endif %}
