@@ -4,6 +4,6 @@ rvm:
  - &ruby1 2.4.5
 script: 
  - gem install jekyll
- - jekyll build
+ - jekyll build --incremental --trace
 # uncomment and edit the following line if your project needs to run something other than `rake`:
 # # script: bundle exec rspec spec
