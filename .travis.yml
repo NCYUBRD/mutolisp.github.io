@@ -1,7 +1,7 @@
 language: ruby
 sudo: false
 rvm:
- - &ruby1 2.3.0
+ - &ruby1 2.4.5
 script: 
  - gem install jekyll
  - jekyll build
